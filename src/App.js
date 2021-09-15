@@ -1,24 +1,17 @@
 import './App.css';
-import useFetch from './hooks/UseFetch/UseFetch';
 import UseCopyToClipboardExample from "./hooks/useCopyToClipboard/UseCopyToClipboardExample";
+import UseFetchExample from "./hooks/UseFetch/UseFetchExample";
 
-function App() {
-    const fetchedData = useFetch({url: 'https://restcountries.eu/rest/v2/name/israel', options: {}});
+const App = () => {
 
     return (
         <div className="App">
             <div className="hooks">
-                <div className="hook">
-                    <h2>
-                        useFetch
-                    </h2>
-                    {`from useFetch: ${fetchedData.data?.[0].name}`}
-                </div>
-
+                <UseFetchExample/>
                 <UseCopyToClipboardExample/>
             </div>
         </div>
     );
-}
+};
 
 export default App;
