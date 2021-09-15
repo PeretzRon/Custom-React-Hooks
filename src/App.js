@@ -1,6 +1,7 @@
 import './App.css';
 import UseCopyToClipboardExample from "./hooks/useCopyToClipboard/UseCopyToClipboardExample";
 import UseFetchExample from "./hooks/UseFetch/UseFetchExample";
+import UseToggleExample from "./hooks/useToggle/UseToggleExample";
 
 const App = () => {
 
@@ -9,6 +10,7 @@ const App = () => {
             <div className="hooks">
                 <UseFetchExample/>
                 <UseCopyToClipboardExample/>
+                <UseToggleExample/>
             </div>
         </div>
     );
