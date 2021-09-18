@@ -2,6 +2,7 @@ import './App.css';
 import UseCopyToClipboardExample from "./hooks/useCopyToClipboard/UseCopyToClipboardExample";
 import UseFetchExample from "./hooks/UseFetch/UseFetchExample";
 import UseToggleExample from "./hooks/useToggle/UseToggleExample";
+import UseTimeoutExample from "./hooks/useTimeout/UseTimeoutExample";
 
 const App = () => {
 
@@ -11,6 +12,7 @@ const App = () => {
                 <UseFetchExample/>
                 <UseCopyToClipboardExample/>
                 <UseToggleExample/>
+                <UseTimeoutExample/>
             </div>
         </div>
     );
