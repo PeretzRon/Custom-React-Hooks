@@ -7,6 +7,9 @@ const UseToggleExample = () => {
 
     return (
         <div className="hook">
+            <h2>
+                useTimeout
+            </h2>
             <div>{value.toString()}</div>
             <button onClick={toggleValue}>Toggle</button>
             <button onClick={() => toggleValue(true)}>Make True</button>
