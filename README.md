@@ -1,5 +1,10 @@
 # Custom React Hooks 
 
-## useFetch
+* useFetch
 
+* useCopyToClipboard
+
+* useToggle
+
+* useTimeout
 
